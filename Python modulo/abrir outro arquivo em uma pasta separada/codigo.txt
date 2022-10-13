@@ -1,0 +1,7 @@
+soma = 6
+dim = 7
+soma2 = soma + dim
+print(dim)
+
+água qualquier
+çhevet

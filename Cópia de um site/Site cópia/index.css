@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    font-family: "Amatic SC", cursive;
+    background: url('./assets/site/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo_marca {
+    width: 200px;
+    height: 200px;
+    border: 20px solid  #e93e21 ;
+    border-radius: 100%;
+    margin-top: 40px;
+}
+
+nav {
+    width: 100%;
+    background-color: #333;
+}
+
+.titulo_logo {
+    color: red;
+    font-size: 40px;
+    
+}
+
+header p {
+    color: white;
+    font-size: 25px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42.8571px;
+    
+}
+
+ul li a:hover {
+    color: #e93e21;
+}
+section {
+    font-family: "Amatic SC", cursive;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background: url(./assets/site/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.titulo_preco {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    font-size: 24px;
+    color: white
+}
+
+.titulo_secao {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+.img_produto {
+    height: 130px;
+    width: 170px;
+    border: 3px solid white;
+    border-radius: 8px;
+}
+.card {
+    width: 45%;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.conteudo_secao {
+    display: flex;
+    width: 100%;
+    background-color: #333;
+    flex-wrap: wrap;
+}
+
+.preco_produto {
+    color: #e93e21;
+    text-align: center;
+    width: 60%;
+    font-size: 20px;
+}
+.butao_comprar {
+    background-color: #e93e21;
+    border: none;
+    color: white;
+    font-size: 30px;
+    border-radius: 10px;
+    margin-left: 80%;
+    transition: all 0.6s;
+}
+.butao_comprar:hover {
+    cursor: pointer;
+   background-color: yellowgreen;
+   transform: scale(1.1);
+}

@@ -13,6 +13,7 @@ header {
     background: url('./assets/site/background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
 .logo_marca {
@@ -24,6 +25,7 @@ header {
 }
 
 nav {
+    display: flex;
     width: 100%;
     background-color: #333;
 }
@@ -31,12 +33,14 @@ nav {
 .titulo_logo {
     color: red;
     font-size: 40px;
-    
+    font-weight: bold;
 }
 
 header p {
     color: white;
     font-size: 25px;
+    font-weight: bold;
+    text-align: center;
 }
 
 ul {
@@ -118,6 +122,38 @@ section {
 }
 .butao_comprar:hover {
     cursor: pointer;
-   background-color: yellowgreen;
-   transform: scale(1.1);
+    background-color: yellowgreen;
+    transform: scale(1.1);
 }
+.menu_icon {
+    display: none;
+    height: 65px;
+    width: 65px;
+    border: 2px solid white;
+    border-style: solid;
+    border-radius: 30px;
+}
+
+@media only screen and (max-width: 850px) {
+    header {
+        background-position: center;
+    }
+
+    .logo_marca {
+        height: 150px;
+        width: 150px;
+        
+    }
+    ul {
+        display: none;
+
+    }
+    .menu_icon {
+        display: flex;
+    }
+    nav {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
